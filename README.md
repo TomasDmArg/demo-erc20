@@ -15,8 +15,8 @@ Este proyecto es una implementación de demostración de un token USDT (Tether U
 
 ## Requisitos previos
 
-- Node.js (v14.0.0 o superior)
-- npm (v6.0.0 o superior)
+- Node.js
+- yarn
 - Cuenta en Arbitrum Sepolia con ETH para gas
 
 ## Instalación
