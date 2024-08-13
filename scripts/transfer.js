@@ -8,7 +8,7 @@ async function main() {
     const recipientAddress = "0x7d184747Ad8a21fb1418c888ACff02bF3756E34b";
 
     // Cantidad a transferir (en unidades más pequeñas, considerando los decimales)
-    const amount = hre.ethers.utils.parseUnits("100000", 6); // 10 USDT, asumiendo 6 decimales
+    const amount = hre.ethers.utils.parseUnits("100000", 18); // 10 USDT, asumiendo 18 decimales
 
     // Conectar al contrato
     const USDT = await hre.ethers.getContractFactory("USDT");
