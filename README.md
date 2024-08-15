@@ -76,7 +76,7 @@ Para transferir tokens, puedes usar el script `transfer-usdt.js`:
 1. Edita el script para establecer la dirección del contrato, la dirección del destinatario y la cantidad a transferir.
 2. Ejecuta el script:
    ```
-   npx hardhat run scripts/transfer-usdt.js --network arbitrumSepolia
+   npx hardhat run scripts/transfer.js --network arbitrumSepolia
    ```
 
 ### Otras interacciones

@@ -5,10 +5,10 @@ async function main() {
     const usdtAddress = "0x961bf3bf61d3446907E0Db83C9c5D958c17A94f6";
 
     // Dirección del destinatario
-    const recipientAddress = "0x7d184747Ad8a21fb1418c888ACff02bF3756E34b";
+    const recipientAddress = "0x01ADB2f443166F5072056c227681002A77f4bF2B";
 
     // Cantidad a transferir (en unidades más pequeñas, considerando los decimales)
-    const amount = hre.ethers.utils.parseUnits("100000", 18); // 10 USDT, asumiendo 18 decimales
+    const amount = hre.ethers.utils.parseUnits("1000", 18); // 10 USDT, asumiendo 18 decimales
 
     // Conectar al contrato
     const USDT = await hre.ethers.getContractFactory("USDT");
